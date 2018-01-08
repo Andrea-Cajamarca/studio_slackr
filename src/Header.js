@@ -19,6 +19,7 @@ export default class App extends React.Component {
     };
 }
 
+
 componentDidMount() {
     // TODO this code is only used by the Header
     base.initializedApp.auth().onAuthStateChanged(user => {
@@ -73,3 +74,5 @@ componentDidMount() {
     }
     
 }
+
+//woe to me
